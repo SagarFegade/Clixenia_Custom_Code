@@ -1,0 +1,9 @@
+/*************    to Make Section Full Height   *****************/
+/* Add this code to anywhere on page and give custom CSS class for section
+<style>
+.fullpage-valign{
+height:100vh; 
+display: flex; 
+flex-direction: column; 
+justify-content: center;}
+</style>
