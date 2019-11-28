@@ -1,0 +1,50 @@
+/**************** Add this Code to code module on same row ****************/
+
+/* Code Module 1 */
+<style>
+.slick-slider
+{
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+-webkit-touch-callout: none;
+-khtml-user-select: none;
+ms-touch-action: pan-y;
+touch-action: pan-y;
+-webkit-tap-highlight-color: transparent;
+}
+ 
+.slick-slide
+{
+float: left;
+}
+</style>
+
+
+/* Code Module 2 */
+
+<script>
+jQuery(function($){
+$('.icecream-items').slick({
+slidesToShow: 4,
+slidesToScroll: 1,
+autoplay: true,
+autoplaySpeed: 700,
+arrows: false,
+dots: false,
+pauseOnHover: true,
+responsive: [{
+breakpoint: 1079,
+settings: {
+slidesToShow: 2
+}
+}]
+});
+});
+</script>
+
+/**************** Call this script from divi integration inside head ****************/
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
