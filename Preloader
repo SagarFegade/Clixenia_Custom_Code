@@ -24,3 +24,34 @@ script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js
 <div class="preloader">
 <div class="status"></div>
 </div>
+
+/* 
+*To Theme Options
+*Add code to custom CSS 
+*/
+/* PRELOADER */ 
+.preloader {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: #fefefe;
+   z-index: 100000;
+   height: 100%;
+   width: 100%;
+   overflow: hidden !important;
+}
+.preloader .status {
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   background-image: url('https://www.clixenia.com/wp-content/uploads/2019/10/Loader-1.gif');
+   background-repeat: no-repeat;
+   background-position: center;
+   -webkit-background-size: cover;
+   background-size: cover;
+   margin: -50px 0 0 -50px;
+}
