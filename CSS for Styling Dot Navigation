@@ -1,0 +1,24 @@
+/* CSScod ecopy to dot navigation for slider all navigation slides */
+
+/* Side Nav Background */
+ul.et_pb_side_nav {
+    background: rgba(195,0,0,0.99);
+}
+ 
+/* Side Dot Nav Link */
+ul.et_pb_side_nav .side_nav_item a {
+    background-color: #FFF;
+}
+ 
+/* Side Dot Nav Link (Active) */
+ul.et_pb_side_nav .side_nav_item a.active {
+    background-color: #02AD0F !important;
+}
+ 
+/*Slider Dot Nav Styling*/
+.et-pb-controllers .et-pb-active-control {
+    background-color: #fff;
+}
+.et-pb-controllers .et-pb-active-control {
+    background-color: #02AD0F !important;
+}
