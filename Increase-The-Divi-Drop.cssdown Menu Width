@@ -1,0 +1,12 @@
+/* Increase inner width of drop-down menu*/
+.et-menu li li a {
+    padding: 6px 20px; 
+    width: 260px;
+}
+/* Increase width of drop-down menu */
+.nav li ul {
+    position: absolute;
+    padding: 20px 0; 
+    width: 300px;
+    
+}
